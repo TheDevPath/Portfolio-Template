@@ -1,0 +1,36 @@
+section {
+  color: rgb(10, 10, 10);
+}
+#skills h2,
+#contact h2 {
+  color: rgb(34, 97, 62);
+  padding: 18px 0 10px 0;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#home {
+  background-image: url('/assets/img/pexels-roberto-shumski-1903702.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 70vh;
+  padding-top: 7rem;
+  color: rgb(34, 97, 62);
+}
+
+#home p {
+  color: rgb(10, 10, 10);
+}
+
+#projects h2 {
+  color: whitesmoke;
+  padding: 18px 0 10px 0;
+}
+
+#projects {
+  background-image: url('/assets/img/pexels-pixabay-326311.jpeg');
+  background-attachment: fixed;
+  padding-bottom: 0.6rem;
+}

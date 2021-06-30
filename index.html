@@ -4,7 +4,267 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- *********Begin NavBar********* -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fas fa-user"></i></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"
+                ><i class="fab fa-dev"></i> Skills</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                ><i class="fas fa-tasks"></i> Projects
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#projects">Project 1</a></li>
+                <li>
+                  <a class="dropdown-item" href="#projects"> Project 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#projects"> Project 3</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#projects"> Project 4</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#projects"> Project 5</a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Upcoming Project</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
+                ><i class="far fa-address-card"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- *********End NavBar********* -->
+
+    <!-- *********Begin Home Section********* -->
+    <section id="home">
+      <div class="container" style="background-color: rgba(255, 255, 255, 0.8)">
+        <h2><i class="fas fa-user"></i> Hi I'm Dev Path</h2>
+        <p>
+          I'm a Web Developer who likes to build cool stuff. Thanks for looking
+          me up. You can see some examples of my work below. Or check my skills
+          to see if I have what you need. Ready to get started? Contact Me
+        </p>
+      </div>
+    </section>
+    <!-- *********End Home Section********* -->
+
+    <!-- *********Begin Skills Section********* -->
+    <section id="skills" class="container">
+      <h2><i class="fab fa-dev"></i> Skills</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam placeat
+        vero ullam quia totam. Eveniet, nihil nobis soluta voluptatum saepe
+        earum nisi, quo, sint facilis laudantium inventore. Nam, labore aliquam.
+      </p>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js-square"></i> Javascript</li>
+        <li><i class="fab fa-wordpress"></i> Wordpress</li>
+        <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+        <li><i class="fab fa-searchengin"></i> SEO</li>
+      </ul>
+    </section>
+    <!-- *********End Skills Section********* -->
+
+    <!-- *********Begin Projects Section********* -->
+    <section id="projects">
+      <div class="container">
+        <h2><i class="fas fa-tasks"></i> Projects</h2>
+        <div class="row g-2">
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/assets/img/pexels-dominika-roseclay-688668.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, recusandae optio quaerat. Quisquam
+                  ipsam eveniet necessitatibus recusandae reiciendis?
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-8">
+            <div class="card">
+              <img
+                src="/assets/img/pexels-rodnae-productions-7309215.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Pariatur officiis, accusamus commodi perspiciatis explicabo
+                  quae suscipit molestiae recusandae optio quaerat. Illum minima
+                  obcaecati exercitationem. Quisquam ipsam eveniet
+                  necessitatibus recusandae reiciendis?
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/assets/img/pexels-ylanite-koppens-796602.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Pariatur officiis, necessitatibus recusandae reiciendis?
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/assets/img/pexels-picjumbocom-196645.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Pariatur officiis, accusamus commodi . Quisquam ipsam eveniet
+                  necessitatibus recusandae reiciendis?
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card">
+              <img
+                src="/assets/img/pexels-thisisengineering-3861958.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 5</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Pariatur officiis, accusamus commodi perspiciatis explicabo
+                  quae suscipit molestiae recusandae optio quaerat. Illum minima
+                  obcaecati exercitationem. Quisquam ipsam eveniet
+                  necessitatibus recusandae reiciendis?
+                </p>
+                <a href="#" class="btn btn-success">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *********End Projects Section********* -->
+
+    <!-- *********Begin Contact Section********* -->
+    <section id="contact" class="container">
+      <h2><i class="far fa-address-card"></i> Contact</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sunt libero,
+        sed cumque ducimus veniam. Molestias, tenetur. Illo numquam incidunt
+        fugiat? Sequi accusantium tempora enim voluptatem, dolorem placeat
+        delectus hic?
+      </p>
+    </section>
+    <!-- *********End Contact Section********* -->
+
+    <!-- *********Begin Footer********* -->
+    <footer>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://www.devpath.tech"
+                >Dev Path</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <!-- *********End Footer********* -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
